@@ -4,7 +4,7 @@
 
 This exercise will help the hiring team at Spredfast gauge your level of front-end coding experience (HTML, CSS & JavaScript).
 
-Please budget about two hours of actual coding time to complete the project. We realize that's a tight constraint, but we'd like to be respectful of your time while still allowing you to produce enough code for us to make a fair assessment of your skills. Try to ensure that the finished product represents your coding abilities. You are not necessarily expected to fully finish within the time limit. We'd much rather review high-quality, incomplete work than rushed, completed work.
+Please budget about two hours of actual coding time to complete the project. We realize that's a tight constraint, but we'd like to be respectful of your time while still allowing you to produce enough code for us to make a fair assessment of your skills. Try to ensure that the finished product represents your coding abilities. You are not necessarily expected to fully finish within the time limit. We'd much rather review high-quality, incomplete work than rushed, completed work. Be prepared to explain your thinking and how your development process lead to your solution.
 
 We've created a few starter files that you should flesh out:
 
