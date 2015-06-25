@@ -28,6 +28,18 @@ var Leaderboard = Backbone.View.extend({
 		}, this.interval);
 	},
 
+	pollBoth: function() {
+		this.poll('veggies');
+		this.poll('fruits');
+	},
+
+	poll: function(type) {
+		var self = this;
+		this.poller.poll({ type: type }, function(results) {
+			self.setResults(results, type);
+		});
+	},
+
 	setResults: function(results, type) {
 		this.flags[type] = true;
 
@@ -70,18 +82,6 @@ var Leaderboard = Backbone.View.extend({
 			$li.find('.name').text(name);
 			$li.find('.number').text(self.numberFormat(number));
 			$inner.fadeIn();
-		});
-	},
-
-	pollBoth: function() {
-		this.poll('veggies');
-		this.poll('fruits');
-	},
-
-	poll: function(type) {
-		var self = this;
-		this.poller.poll({ type: type }, function(results) {
-			self.setResults(results, type);
 		});
 	},
 
