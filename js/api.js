@@ -62,7 +62,6 @@
     var self = this;
     var config = $.extend({}, this.defaults, options);
     var dfd = $.Deferred();
-
     setTimeout(function () {
       var payload = self._processData(self._getData(config.type), config.limit);
 
